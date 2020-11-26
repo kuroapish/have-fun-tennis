@@ -11,15 +11,31 @@
 }
 
 .main-bar{
-  background-color:blue;
   width: 80%;
   height: 100%;
 }
 
 .head-bar{
-  background-color: blueviolet;
+  display:flex ;
+  background-color: yellow;
   height: 60px;
 }
+
+.bottom-bar{
+  background-color: turquoise;
+  height: calc(100vh - 60px);
+}
+
+.title-name{
+  color: black;
+  font-size: 20px;
+}
+
+.lists-top{
+  display: flex;
+}
+
+
 
 .right-bar{
   background-color:white;
